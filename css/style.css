@@ -172,17 +172,20 @@ body {
     border-radius: 8px;
     box-shadow: 0px 0px 4px 0px black;
 }
+.side,.outside {
+    display: block;
+} 
 
 .side {
     width: 85%;
-    margin: 35px 18px;
+    margin: 35px auto;
     box-shadow: 0 0 4px 0 black;
     border-radius: 8px;
 }
 
 .outside {
     width: 85%;
-    margin: 35px 18px;
+    margin: 35px auto;
     border-radius: 8px;
     box-shadow: 0 0 4px 0 black;
 
@@ -234,12 +237,12 @@ body {
 
         .side {
             width: 60%;
-            margin: 5px 85px;
+            margin: 5px auto;
         }
 
         .outside {
             width: 60%;
-            margin: 5px 85px;
+            margin: 5px auto;
         }
 }
 
@@ -256,7 +259,7 @@ body {
     .side {
         height: 250px;
         width: 330px;
-        margin: 5px 50px;
+        margin: 5px auto;
     }
 
     .feature {
@@ -267,7 +270,7 @@ body {
     .outside {
         width: 330px;
         height: 250px;
-        margin: 5px 50px;
+        margin: 5px auto;
     }
 
     .desc-feature {
