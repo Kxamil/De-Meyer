@@ -186,6 +186,7 @@ body {
 
 .outside {
     width: 80%;
+    width: 80%;
     box-shadow: 7px 7px 10px 0 #787878;
     border-radius: 8px;
 }
@@ -240,12 +241,12 @@ body {
 
         .side {
             width: 60%;
-            margin: 5px 85px;
+            margin: 5px auto;
         }
 
         .outside {
             width: 60%;
-            margin: 5px 85px;
+            margin: 5px auto;
         }
 }
 
@@ -262,7 +263,7 @@ body {
     .side {
         height: 250px;
         width: 330px;
-        margin: 5px 50px;
+        margin: 5px auto;
     }
 
     .feature {
@@ -273,7 +274,7 @@ body {
     .outside {
         width: 330px;
         height: 250px;
-        margin: 5px 50px;
+        margin: 5px auto;
     }
 
     .desc-feature {
