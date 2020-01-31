@@ -156,9 +156,9 @@ body {
 .features {
     width: 85%;
     margin: 20px auto;
-    padding: 10px;
+    padding: 20px;
     background-color: rgb(255, 255, 255);
-    box-shadow: black 0px 0px 15px;
+    box-shadow: black 0px 0px 10px;
     border-radius: 8px;
     line-height: 1.4;
     overflow: hidden;
@@ -173,19 +173,21 @@ body {
     box-shadow: 0px 0px 4px 0px black;
 }
 
+.side, .outside {
+    display: block;
+    margin: 35px auto;
+}
+
 .side {
-    width: 85%;
-    margin: 35px 18px;
-    box-shadow: 0 0 4px 0 black;
+    width: 80%;
+    box-shadow: 7px 7px 10px 0 #787878;
     border-radius: 8px;
 }
 
 .outside {
-    width: 85%;
-    margin: 35px 18px;
+    width: 80%;
+    box-shadow: 7px 7px 10px 0 #787878;
     border-radius: 8px;
-    box-shadow: 0 0 4px 0 black;
-
 }
 
 .desc-feature{
@@ -196,25 +198,29 @@ body {
     font-size: 16px;
     font-family: 'Open Sans Condensed',
     sans-serif;
-    font-weight: bold;
     text-align: justify;
 }
 
-@media (min-width: 640px){
-
+@media (min-width: 480px){
     .features {
         width: 75%;
-        margin: 35px auto;
-        padding: 15px;
-    }
-    .side{
-        width: 65%;
-        margin: 5px 65px 25px;
+        line-height: 1.5;
     }
 
-    .outside{
-        width: 65%;
-        margin: 5px 65px 25px;
+    .feature {
+        width: 85%;
+    }
+
+    .side {
+        width: 75%;
+    }
+    .outside {
+        width: 75%;
+    }
+
+    .desc-feature {
+        width: 80%;
+        font-size: 17px;
     }
 }
 
@@ -300,21 +306,16 @@ body {
     /* Over ons */
 
 .main-aboutus {
-    padding: 5px;
-}
-
-.head-about {
-    margin: 5px;
-    color: rgb(117, 84, 84);
-    font-size: 18px;
-    text-align: center;
+    padding: 10px;
 }
 
 .about {
-    margin: 20px 23px;
+    width: 90%;
+    margin: 20px auto;
     padding: 15px;
-    background-color: rgb(212, 195, 195);
-    line-height: 1.5;
+    background-color: rgb(255, 255, 255);
+    box-shadow: black 0 0 10px 0;
+    border-radius: 8px;
 }
 
 .aboutimg {
@@ -330,7 +331,7 @@ body {
     margin: 10px;
     padding: 5px;
     font-size: 16px;
-    text-align: left;
+    text-align: justify;
 }
 
 @media (orientation: landscape) {
