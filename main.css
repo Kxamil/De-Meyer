@@ -1,0 +1,271 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1920px;
+    font-family: 'Open Sans Condensed',
+        sans-serif;
+}
+
+.wrapper {
+    max-width: 1480px;
+    margin: 0 auto;
+    background-color: #1b1b1b;
+}
+
+.logo_company {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 120px;
+}
+
+.logo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: -45px;
+}
+
+/* Menu */
+.nav {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    background-color: #282828;
+    border-radius: 0 0 30px 30px;
+    top: 10px;
+    /* box-shadow: 0 18px 22px -12px; */
+}
+
+.nav_menu {
+    width: 100%;
+    height: 45px;
+    padding-top: 9px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.nav_menu a {
+    margin: 0 15px;
+    padding: 5px;
+    font-size: 16px;
+    color: whitesmoke;
+    text-transform: capitalize;
+    text-decoration: none;
+    background: rgba(33, 33, 34, 0.76);
+    border-radius: 15px;
+}
+
+/* Banner van website
+.banner .banner-pait {
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@media (min-width: 553px) {
+    .banner .banner-pait {
+        height: 120px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 853px) {
+
+    .banner .banner-pait {
+        height: 120px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 812px) {
+
+    .banner .banner-pait {
+        height: 140px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .banner .banner-pait {
+        height: 230px;
+        width: 100%;
+    }
+} */
+
+/* Waar kunnen we werken */
+
+.features {
+    width: 85%;
+    margin: 60% auto 0;
+    padding: 20px;
+    background-color: #2a2a2a;
+    -webkit-box-shadow: -10px -10px 60px -25px #555,
+    10px 20px 60px -25px #777;
+    box-shadow: -10px -10px 60px -25px #555,
+    10px 20px 60px -25px #777;
+    border-radius: 8px;
+}
+
+.feature {
+    width: 90%;
+    margin: 50% auto 0;
+    padding: 5px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 8px;
+    -webkit-box-shadow: 6px 6px 17px -4px #626262;
+    box-shadow: 6px 6px 17px -4px #626262;
+}
+
+.side,
+.outside {
+    display: block;
+    width: 80%;
+    margin: 35px auto;
+    -webkit-box-shadow: 7px 7px 20px -1px #5e5e5e,
+        -7px -7px 20px -1px #c6c6c6;
+    box-shadow: 7px 7px 20px -1px #5e5e5e,
+        -7px -7px 20px -1px #c6c6c6;
+    border-radius: 8px;
+}
+
+.desc-feature {
+    width: 85%;
+    margin: 25px auto;
+    padding: 15px;
+    color: rgb(63, 63, 63);
+    font-size: 16px;
+    font-family: 'Open Sans Condensed',
+        sans-serif;
+    text-align: justify;
+}
+
+/* Over ons */
+
+.main-aboutus {
+    width: 90%;
+    margin: 60% auto 40%;
+    padding: 10px;
+    background: #2a2a2a;
+    -webkit-box-shadow: -10px -10px 60px -25px #555,
+    10px 20px 60px -25px #777;
+    box-shadow: -10px -10px 60px -25px #555,
+    10px 20px 60px -25px #777;
+    border-radius: 8px;
+}
+
+.about {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: black 0 0 10px 0;
+    box-shadow: black 0 0 10px 0;
+    border-radius: 8px;
+}
+
+.aboutimg {
+    margin: 10px;
+}
+
+.aboutusimg {
+    width: 100%;
+}
+
+.desc-about {
+    color: rgb(77, 77, 77);
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* Footer */
+
+.footer {
+    background-color: rgb(39, 39, 39);
+}
+
+.wrap-content {
+    background-color: #2a2a2a;
+}
+
+.content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.contact {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    width: 60%;
+    padding: 10px;
+}
+
+.contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: 15px 0;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+
+.block-span {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.footer-desc {
+    text-align: center;
+    color: rgb(66, 66, 66);
+}
+
+.fas,
+.fab {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    font-size: 16px;
+    color: rgb(170, 120, 226);
+}
