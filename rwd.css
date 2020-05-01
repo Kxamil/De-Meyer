@@ -1,361 +1,182 @@
-/* Where can we work */
-@media (min-width: 400px) {
 
-    .features {
-        width: 80%;
-        padding: 30px;
+/* Company logo */
+@media (orientation: landscape) and (min-width: 390px) {
+    
+    .logo{
+        width: 230px;
+        height: 230px;
+        bottom: -65px;
     }
+}
 
-    .desc-feature {
-        width: 85%;
+@media (orientation: portrait) and (min-width: 450px) {
+
+    .logo {
+        width: 220px;
+        height: 220px;
+        bottom: -60px;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 390px) {
+
+    .logo {
+        width: 225px;
+        height: 225px;
+        bottom: -65px;
+    }
+}
+
+/* Nav bar */
+@media (orientation: landscape) and (min-width: 390px) {
+
+    .nav_menu a {
+        margin: 0 35px;
+        font-size: 18px;
+        padding: 7px;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 390px) {
+
+    .nav_menu a {
+        margin: 0 20px;
+        padding: 7px;
         font-size: 17px;
     }
 }
 
-@media (min-width: 580px) {
+@media (orientation: portrait) and (min-width: 450px) {
 
-    .features {
-        width: 75%;
-        padding: 25px;
-    }
-
-    .feature {
-        width: 80%;
-        margin: 15% auto;
-    }
-
-    .desc-feature {
-        width: 80%;
-    }
-
-    .side {
-        width: 75%;
-        margin: 15% auto;
-    }
-
-    .outside {
-        width: 75%;
-        margin: 15% auto;
+    .nav_menu a {
+        margin: 0 25px;
     }
 }
 
-@media (min-width: 1024px) {
+/* Where can we work */
+@media (orientation: landscape) and (min-width: 390px) {
 
     .features {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        width: 85%;
-        margin: 20px auto;
-        padding: 5px;
-        line-height: 1.8;
+        width: 55% ;
+        padding: 8px;
+        margin: 35% auto 0;
     }
-
-    .side {
-        height: 250px;
-        width: 330px;
-        margin: 5px auto;
-    }
-
     .feature {
-        width: 45%;
-        margin: 15px auto;
+        width: 70%;
+        margin: 30% auto 10%;
     }
-
-    .outside {
-        width: 330px;
-        height: 250px;
-        margin: 5px auto;
-    }
-
     .desc-feature {
-        width: 85%;
-        margin: 10px auto;
+        width: 75%;
+        margin: 20px auto;
+        padding: 8px;
         font-size: 16px;
     }
-
 }
 
-@media (min-width: 1280px) {
+@media (orientation: portrait) and (min-width: 390px) {
+    
     .features {
-        width: 80%;
-        margin: 60px auto;
-        padding: 30px;
+        width: 75%;
     }
-
     .feature {
-        width: 44%;
-        margin: 15px auto;
-        padding: 20px;
-    }
-
-    .desc-feature {
-        margin: 20px auto;
-        font-size: 16px;
+        width: 80%;
     }
 }
 
 /* About US */
-@media (orientation: landscape) {
-
-    .aboutusimg {
-        width: 75%;
-        margin: 0 70px;
-    }
-}
-
-@media (min-width: 320px) {
-
-    .aboutusimg {
-        width: 85%;
-        margin: 0 18px;
-    }
-
-    .head-about {
-
-        font-size: 18px;
-    }
-
-    .desc-about {
-        font-size: 16px;
-    }
-}
-
-@media (min-width: 360px) {
-
-    .desc-about {
-        color: rgb(77, 77, 77);
-        margin: 10px;
-        padding: 5px;
-        font-size: 16px;
-        text-align: left;
-    }
-
-}
-
-@media (min-width: 720px) {
-
-    .aboutusimg {
-        width: 65%;
-        margin: 0 105px;
-    }
-
-    .head-about {
-        font-size: 18px;
-    }
-
-    .desc-about {
-        width: 75%;
-        margin: 0 auto;
-        font-size: 16px;
-    }
-}
-
-@media (min-width: 800px) {
-
-    .aboutusimg {
-        width: 55%;
-        margin: 0 140px;
-    }
-
-    .head-about {
-        font-size: 18px;
-    }
-
-    .desc-about {
-        width: 65%;
-        margin: 0 auto;
-        font-size: 16px;
-    }
-}
-
-@media (min-width: 1024px) {
+ @media (orientation: landscape) and (min-width: 390px) {
 
     .main-aboutus {
-        padding: 10px;
+        width: 55%;
+        padding: 8px;
+        margin: 30% auto 30%;
     }
+    .about {
+        width: 80%;
+        margin: 40px auto;
+        padding: 8px;
+    }
+    .aboutusimg {
+        width: 95%;
+        margin: 40px auto;
+    }
+}
 
-    .head-about {
-        width: 32%;
-        font-size: 18px;
-        text-align: left;
+@media (orientation: portrait) and (min-width: 390px) {
+
+    .main-aboutus {
+        width: 75%;
     }
 
     .about {
-
-        display: -webkit-box;
-
-        display: -ms-flexbox;
-
-        display: flex;
-        width: 85%;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        margin: 20px auto;
-        padding: 15px;
-        line-height: 1.2;
-    }
-
-    .aboutimg {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        width: 100%;
-        margin: 10px;
-    }
-
-    .aboutusimg {
-        -o-object-fit: contain;
-        object-fit: contain;
-        width: 45%;
-        margin: 0 auto;
-    }
-
-    .desc-about {
-        width: 50%;
-        margin: 10px auto;
-        padding: 10px;
-        font-size: 16px;
-    }
-}
-
-@media (min-width: 1400px) {
-
-    .desc-about {
-        width: 40%;
-        font-size: 16px;
-    }
-
-    .aboutusimg {
-        width: 50%;
+        width: 80%;
     }
 }
 
 /* Footer and contacts, location */
-
-@media (min-width: 533px) {
-    .contact {
-        width: 310px;
-    }
-
-    .contacts {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        margin: 15px 0;
-    }
-
-    .block-span {
-        -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-        font-size: 16px;
-    }
-
-    .fas,
-    .fab {
-        width: 25px;
-        font-size: 18px;
-    }
-}
-
-@media (min-width: 980px) {
+@media (orientation: landscape) and (min-width: 390px) {
 
     .contact {
         width: 100%;
-        -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
+    }
+    .contacts {
+        display: flex;
+        margin: 18px 5px;
+    }
+    .block-span {
         align-self: center;
+        font-size: 20px;
     }
-
-    .contacts {
-        display: -webkit-inline-box;
-        display: -ms-inline-flexbox;
-        display: inline-flex;
-        margin: 15px 0;
-        margin-left: 5px;
-    }
-
-    .block-span {
-        padding-left: 10px;
-        font-size: 18px;
-    }
-
     .fas,
     .fab {
-        width: 20px;
-        font-size: 21px;
-    }
-}
-
-@media (min-width: 1024px) {
-
-    .contact {
-        width: 1024px;
-        -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    }
-
-    .contacts {
-        display: -webkit-inline-box;
-        display: -ms-inline-flexbox;
-        display: inline-flex;
-        margin: 15px 0;
-        margin-left: 18px;
-    }
-
-    .block-span {
-        padding-left: 10px;
-        font-size: 17px;
-    }
-
-    .fas,
-    .fab {
-        width: 20px;
-        font-size: 21px;
-    }
-}
-
-@media (min-width: 1366px) {
-
-    .contact {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-}
-
-@media (min-width: 1400px) {
-
-    .contact {
-        width: 1100px;
-        margin-left: 1%;
-        margin-right: 1%;
-    }
-
-    .contacts {
-        display: -webkit-inline-box;
-        display: -ms-inline-flexbox;
-        display: inline-flex;
-        margin: 15px 0;
-        margin-left: 24px;
-    }
-
-    .block-span {
-        padding: 5px;
-        font-size: 17px;
-    }
-
-    .fas,
-    .fab {
-        width: 30px;
+        width: 25px;
         font-size: 26px;
+    }
+    .location__company {
+        width: 300px;
+    }
+    .container-location {
+        left: 45%;
+        top: -35%;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 360px) {
+    .contacts {
+        margin: 20px 5px;
+    }
+    .location__company {
+        width: 290px;
+    }
+    .container-location {
+        right: 25px;
+    }
+    .block-span {
+        font-size: 20px;
+    }
+    .fas, .fab {
+        font-size: 28px;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 390px) {
+    .location__company {
+        width: 330px;
+    }
+    .container-location {
+        right: 32px;
+    }
+
+}
+
+@media (orientation: portrait) and (min-width: 422px) {
+    .location__company {
+        width: 365px;
+    }
+    .contacts {
+        margin: 20px 15px;
+    }
+    .container-location {
+        right: 43px;
     }
 }
