@@ -1,0 +1,16 @@
+.contact_titel {
+    width: 80%;
+    height: 50vh;
+    margin: 2rem auto;
+}
+
+.typing {
+    position: relative;
+    width: 75%;
+    font-size: 17px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    text-align: center;
+    color: whitesmoke;
+    left: 14%;
+}

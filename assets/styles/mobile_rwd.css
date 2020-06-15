@@ -1,0 +1,450 @@
+
+/* Company logo */
+@media (orientation: landscape) and (min-width: 560px) {
+    
+    .logo{
+        width: 230px;
+        height: 230px;
+        bottom: -65px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 820px) {
+
+    .logo {
+        width: 240px;
+        height: 240px;
+        bottom: -80px;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 450px) {
+
+    .logo {
+        width: 220px;
+        height: 220px;
+        bottom: -60px;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 390px) {
+
+    .logo {
+        width: 225px;
+        height: 225px;
+        bottom: -65px;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 480px) {
+
+    .logo {
+        width: 240px;
+        height: 240px;
+        bottom: -75px;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 720px) {
+
+    .logo {
+        width: 275px;
+        height: 275px;
+        bottom: -110px;
+    }
+}
+
+@media (min-width: 1280px) {
+    
+    .logo {
+        width: 340px;
+        height: 340px;
+        bottom: -155px;
+    }
+}
+/* Nav bar */
+@media (orientation: landscape) and (min-width: 560px) {
+
+    .nav_menu a {
+        margin: 0 4%;
+        font-size: 17px;
+        padding: 8px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 820px) {
+
+    .nav {
+        top: 15px;
+    }
+    .nav_menu {
+        height: 55px;
+        padding-top: 16px;
+    }
+    .nav_menu a {
+        margin: 0 7%;
+        font-size: 19px;
+        padding: 13px;
+    }
+}
+
+
+@media (orientation: portrait) and (min-width: 390px) {
+
+    .nav_menu a {
+        margin: 0 4%;
+        padding: 6px;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 480px) {
+
+    .nav_menu a {
+        margin: 0 6%;
+        padding: 8px;
+        font-size: 18px;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 720px) {
+    
+    .nav {
+        top: 40px;
+    }
+    .nav_menu {
+        height: 50px;
+        padding-top: 13px;
+    }
+    .nav_menu a {
+        margin: 0 6%;
+        padding: 10px;
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .nav {
+        top: 65px;
+    }
+    .nav_menu {
+        height: 75px;
+        padding-top: 24px;
+    }
+    .nav a:hover {
+        background-color: #40356f;
+        border: 1px solid #645fce;
+        transition: linear 0.5s;
+    }
+}
+
+/* Where can we work */
+@media (orientation: landscape) and (min-width: 560px) {
+
+    .features {
+        width: 50% ;
+        padding: 8px;
+        margin: 15% auto 0;
+    }
+    .feature {
+        width: 75%;
+        margin: 30% auto 10%;
+    }
+    .desc-feature {
+        width: 80%;
+        margin: 20px auto;
+        font-size: 18px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 820px) {
+    
+    .features {
+        width: 45%;
+        margin: 15% auto 0;
+    }
+    .feature {
+        width: 70%;
+    }
+    .side,
+    .outside,
+    .aboutusimg {
+        width: 85%;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 390px) {
+    
+    .features {
+        width: 75%;
+    }
+    .feature {
+        width: 80%;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 480px) {
+
+    .features {
+        width: 65%;
+        margin: 40% auto 0;
+        padding: 5px;
+    }
+    .feature {
+        width: 80%;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 720px) {
+
+    .features {
+        width: 60%;
+    }
+    .feature {
+        width: 75%;
+    }
+    .side,
+    .outside,
+    .aboutusimg {
+        width: 75%;
+    }
+    .desc-feature,
+    .desc-about {
+        width: 75%;
+        padding: 15px;
+        font-size: 19px;
+    }
+}
+@media (min-width: 1280px) {
+
+    .side,
+    .outside,
+    .aboutusimg {
+        width: 35%;
+        height: 200px;
+        margin: 53px auto;
+    }
+
+    .desc-feature,
+    .desc-about {
+        width: 50%;
+        font-size: 20px;
+        margin: 2rem auto;
+        text-align: left;
+        transform: translate(-4%, 8%);
+    }
+
+    .features {
+        display: grid;
+        width: 55%;
+        margin: 15rem auto;
+
+    }
+
+    .feature {
+        display: flex;
+        width: 90%;
+        height: 20rem;
+        margin: 2rem auto;
+    }
+}
+/* About US */
+ @media (orientation: landscape) and (min-width: 560px) {
+
+    .main-aboutus {
+        width: 50%;
+        padding: 8px;
+        margin: 30% auto 30%;
+    }
+    .desc-about {
+        width: 80%;
+        font-size: 17px;
+    }
+    .about {
+        width: 80%;
+        margin: 40px auto;
+        padding: 8px;
+    }
+    .aboutusimg {
+        width: 95%;
+        margin: 40px auto;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 820px) {
+    
+    .main-aboutus {
+        width: 50%;
+    }
+    .about {
+        width: 75%;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 390px) {
+
+    .main-aboutus {
+        width: 75%;
+    }
+    .about {
+        width: 90%;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 720px) {
+
+    .main-aboutus {
+        width: 60%;
+    }
+    .about {
+        width: 85%;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .main-aboutus {
+        margin: 5rem auto 15rem;
+    }
+    .aboutusimg {
+        width: 83%;
+        height: 10%;
+    }
+    .desc-about {
+        width: 77%;
+        margin: 2rem 5rem;
+        text-align: justify;
+        font-size: 18px;
+    }
+}
+/* Footer and contacts, location */
+@media (orientation: landscape) and (min-width: 560px) {
+
+    .wrap-content {
+        height: 330px;
+    }
+    .contact {
+        width: 100%;
+    }
+    .contacts {
+        display: flex;
+        margin: 18px 5px;
+    }
+    .fas,
+    .fab {
+        width: 25px;
+        font-size: 26px;
+    }
+    .location__company {
+        width: 260px;
+    }
+    .container-location {
+        left: 51%;
+        top: -35%;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 730px) {
+
+    .container-location {
+        left: 45%;
+    }
+
+    .location__company {
+        width: 335px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 820px) {
+
+    .wrap-content {
+        height: 330px;
+    }
+    .contact {
+        width: 90%;
+    }
+    .container-location {
+        top: -40%;
+    }
+    .location__company {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 360px) {
+
+    .contact {
+        width: 70%;
+    }
+    .contacts {
+        margin: 20px 5px;
+    }
+    .location__company {
+        width: 290px;
+    }
+    .container-location {
+        right: 25px;
+    }
+    .fas, .fab {
+        font-size: 28px;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 390px) {
+
+    .block-span {
+        font-size: 18px;
+    }
+    .location__company {
+        width: 315px;
+    }
+
+}
+
+@media (orientation: portrait) and (min-width: 422px) {
+
+    .location__company {
+        width: 365px;
+    }
+    .contacts {
+        margin: 20px 15px;
+    }
+    .container-location {
+        right: 43px;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 480px) {
+
+    .wrap-content {
+        height: 590px;
+    }
+    .contact {
+        width: 59%;
+    }
+    .container-location {
+        right: 45px;
+    }
+    .location__company {
+        width: 365px;
+        height: 215px;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 720px) {
+
+    .wrap-content {
+        height: 385px;
+    }
+    .contact {
+        width: 93%;
+    }
+    .location__company {
+        width: 300px;
+    }
+    .container-location {
+        left: 48%;
+        top: -42%;
+    }
+}
